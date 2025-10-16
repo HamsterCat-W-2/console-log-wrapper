@@ -11,7 +11,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HamsterCat-W-2/vscode-copy-file-line.git"
+    "url": "https://github.com/HamsterCat-W-2/console-log-wrapper.git"
   },
   "main": "./out/extension.js",
   "activationEvents": [
