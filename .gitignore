@@ -1,0 +1,20 @@
+# Nuxt dev/build outputs
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+trace-logs
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
+!.env.example
+
+GEMINI.md

@@ -1,0 +1,45 @@
+{
+  "name": "console-log-wrapper",
+  "displayName": "Console Log Wrapper",
+  "description": "Wraps selected text in a console.log statement.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "publisher": "lymticans",
+  "author": "lymticans",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HamsterCat-W-2/vscode-copy-file-line.git"
+  },
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "onCommand:console-log-wrapper.wrap"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "console-log-wrapper.wrap",
+        "title": "Wrap in console.log"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "console-log-wrapper.wrap",
+        "key": "ctrl+shift+l",
+        "mac": "cmd+shift+l"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.83.0",
+    "@types/node": "18.x",
+    "typescript": "^5.2.2"
+  }
+}
